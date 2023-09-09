@@ -1,0 +1,29 @@
+*{
+    margin-bottom: 2rem;    
+    font-size: 115%;
+    text-align: center;
+}
+
+h1{
+    margin-top: 2rem;
+}
+hr{
+    width: 80%;
+}
+.border{
+    margin: 1.5rem 25rem;
+    border-style: solid;
+    color: black;
+    background-color: #F7F7F7;
+}
+
+.radioBtn{
+    text-align: left;
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+
+span{
+    font-size: 50px;
+    font-weight: bold;
+}

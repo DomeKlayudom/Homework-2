@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style_convert_temperature.css" />
+  </head>
+  <body>
+    <div class="border">
+      <h1>Temparature Conversion</h1>
+
+      <p>Cel to Fah | Fah to Cel</p>
+
+      <img src="./image/temp.png" alt="" />
+      <hr />
+
+      ป้อนอุณหภูมิ :
+      <input type="text" name="temp-num" id="temp-num" placeholder="0.00"/> เซลเซียส
+      <br />
+      <div class="radioBtn">
+        <input type="radio" name="temp-select" id="temp-ctf" value="ctf"/> แปลง Celsius
+        to Fahrenheit | F = C * 9 / 5 + 32
+        <br />
+        <input type="radio" name="temp-select" id="temp-ftc" value="ftc"/> แปลง
+        Fahrenheit to Celsius | C = (F - 32) * 5 / 9
+      </div>
+      <button id="btn-cal">แปลงอุณหภูมิ</button>
+      <button id="btn-can">ยกเลิก</button>
+      <hr />
+
+      <div>มีค่าเป็น <span id="temp-result">0.00</span> ฟาเรนไฮต์</div>
+
+      <script src="./js/script_convert_temperature.js"></script>
+    </div>
+  </body>
+</html>

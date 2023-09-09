@@ -1,0 +1,21 @@
+*{
+    margin-bottom: 2rem;    
+    font-size: 115%;
+    text-align: center;
+}
+.border{
+    margin: 0rem 27rem;
+    border-style: solid;
+    color: black;
+    background-color: #F7F7F7;
+}
+hr{
+    width: 80%;
+}
+span{
+    padding-bottom: -2rem;
+}
+form{
+    text-align: left;
+    padding-left: 7rem;
+}
